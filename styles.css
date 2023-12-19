@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #5fa7b1;
+}
+
+.snowflake-container {
+    position: relative;
+}
+
+.snowflake {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    clip-path: polygon(50% 0, 45% 18%, 24% 13%, 44% 22%, 46% 33%, 38% 36%, 46% 39%, 50% 50%, 54% 39%, 62% 36%, 54% 33%, 56% 22%, 76% 13%, 55% 18%);
+    background-color: #133b55;
+    transition: background-color 0.5s ease;
+}
+
+.snowflake.active {
+    background-color: #e7faf7;
+}
+
+
+#button1 { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+#button2 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(60deg); }
+#button3 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(120deg); }
+#button4 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(180deg); }
+#button5 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(240deg); }
+#button6 { top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(300deg); }

@@ -1,0 +1,1 @@
+Special snowflake is a browser based musical playground created for Holberton's hack sprint. Click something to get started.
